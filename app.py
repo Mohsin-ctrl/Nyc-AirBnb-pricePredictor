@@ -17,8 +17,7 @@ def load_assets():
 model, lookup = load_assets()
 
 st.title("NYC Airbnb Price Predictor")
-st.write("Estimate the nightly price (USD) of an Airbnb listing in New York City. "
-         "The model was trained on 2019 listings, so treat the result as a rough estimate.")
+st.write("Estimate the nightly price (USD) of an Airbnb listing in New York City. ")
 
 col1, col2 = st.columns(2)
 with col1:
