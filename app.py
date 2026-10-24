@@ -125,12 +125,6 @@ with st.sidebar:
         "cleaning. Prices above $1,000 per night were removed, so the model "
         "does not predict luxury listings."
     )
-    st.markdown("### Limitations")
-    st.write(
-        "Prices are from 2019. The model sees only location, room type and "
-        "activity, not amenities, photos or descriptions. Location uses the "
-        "typical coordinates of the chosen neighbourhood."
-    )
     st.caption("Machine Learning Fundamentals (AIC354), Assignment 3")
 
 st.markdown(
@@ -141,7 +135,6 @@ st.markdown(
         from its location, room type and activity.</div>
         <span class="badge">{algorithm}</span>
         <span class="badge">10-fold cross-validation</span>
-        <span class="badge">2019 listings</span>
     </div>
     """,
     unsafe_allow_html=True,
