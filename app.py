@@ -118,7 +118,6 @@ with st.sidebar:
         f"Algorithm: **{algorithm}**, chosen as the best of 5 algorithms "
         "using 10-fold cross-validation on the full cleaned dataset."
     )
-    st.write(f"Typical error: about **${CV_RMSE}** per night (cross-validation RMSE).")
     st.markdown("### Data")
     st.write(
         "New York City Airbnb Open Data (2019), about 48,600 listings after "
