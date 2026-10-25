@@ -205,8 +205,6 @@ if result:
             <div class="result-label">Estimated price per night</div>
             <div class="result-price">${result['price']:,.0f}</div>
             <div class="result-for">{result['summary']}</div>
-            <div class="result-note">Typical model error is about ${CV_RMSE} per night
-            (10-fold cross-validation RMSE), so treat this as a rough estimate.</div>
         </div>
         """,
         unsafe_allow_html=True,
